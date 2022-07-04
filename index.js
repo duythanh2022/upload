@@ -13,7 +13,7 @@ mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true  })
     console.log('Error connecting to database' + error.message );
   });
 
-const PORT = 8000;
+const PORT = 4000;
 app.listen(PORT, (req, res) => {
     console.log(`server connecting ${PORT}`);
   });
