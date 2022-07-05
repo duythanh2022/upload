@@ -5,7 +5,7 @@ const productController = {
         try {
             const data = await product.create({
                 name: req.body.name,
-                img:req.file.path
+                img:req.files
             })
             console.log("thth",data)
         } catch (err) {
